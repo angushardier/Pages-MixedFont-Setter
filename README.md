@@ -2,6 +2,12 @@
 
 一個輕量級的 macOS 自動化工具，為 Apple Pages 文件實現「中西文混排」格式化。
 
+## ⚠️ Disclaimer
+
+- This app is vibe coded by Claude Opus 4.5 via Antigravity. 
+- This app is not notarized nor signed.
+- We urge the avoidance of using this app. We are not responsible for any result. We do not promise anything.
+
 ## 功能特色
 
 - 🎯 **自動識別** CJK 字元（漢字、全形標點）與西文（拉丁字母、數字）
@@ -9,10 +15,12 @@
 - ⚡ **批次處理** 連續中文區段，提升效能
 - 🔔 **狀態通知** 透過 macOS 通知中心回報進度
 
-## 系統需求
+## Requirements
 
-- macOS 10.15 (Catalina) 或更新版本
-- Apple Pages（iWork 14+）
+已於本機測試。
+- macOS 26 (Tahoe); theoretically supports 10.15+
+- Apple Pages 14.4
+- Traditional Chinese literacy
 
 ## 安裝與編譯
 
@@ -31,8 +39,8 @@ osacompile -o "Pages-MixedFont-Setter.app" "PagesMixedFontSetter.applescript"
 1. 開啟 **Apple Pages** 並打開包含中英文混合的文件
 2. 雙擊執行 **Pages-MixedFont-Setter.app**
 3. 在對話框中選擇：
-   - **中文字型**（例如：宋體-簡、黑體-繁）
-   - **英文字型**（例如：Times New Roman、Helvetica）
+   - **中文字型**（例如：黑體-繁）
+   - **英文字型**（例如：Helvetica）
 4. 點擊「**套用**」開始處理
 5. 等待完成通知
 
@@ -54,12 +62,16 @@ osacompile -o "Pages-MixedFont-Setter.app" "PagesMixedFontSetter.applescript"
 2. 分析文字，識別連續的 CJK 區段
 3. 批次套用中文字型到各 CJK 區段
 
-## 授權
+### 限制
 
-MIT License
+僅套用字型家族 (font family)，未支援指定的變體或字重。
 
 ## 版本歷史
 
 - **v1.2.1** - 修復中文字型未套用問題，改用批次處理
 - **v1.1.0** - 新增 NSAlert 下拉選單介面
 - **v1.0.0** - 初始版本
+
+## Contributions
+
+This repo does not accept contributions. Fork it as you like but don't ever bother the author.
