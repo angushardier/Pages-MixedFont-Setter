@@ -4,8 +4,7 @@
 
 ## ⚠️ Disclaimer
 
-- This app is vibe coded by Claude Opus 4.5 via Antigravity. 
-- This app is not notarized nor signed.
+- This app is a cognitive automation product. Involved models include: Claude Opus 4.5. 
 - We urge the avoidance of using this app. We are not responsible for any result. We do not promise anything.
 
 ## 功能特色
