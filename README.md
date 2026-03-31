@@ -4,7 +4,7 @@
 
 ## ⚠️ Disclaimer
 
-- This app is a cognitive automation product. Involved models include: Claude Opus 4.5. 
+- This app is a cognitive automation product. Involved models include: GPT 5.4, Claude Opus 4.5. 
 - We urge the avoidance of using this app. We are not responsible for any result. We do not promise anything.
 
 ## 功能特色
@@ -16,22 +16,9 @@
 
 ## Requirements
 
-已於本機測試。
 - macOS 26 (Tahoe); theoretically supports 10.15+
-- Apple Pages 14.4
+- Apple Pages 14.4 - 15.1.1; theoretically supports similar versions
 - Traditional Chinese literacy
-
-## 安裝與編譯
-
-### 使用預編譯版本
-
-直接雙擊 `Pages-MixedFont-Setter.app` 即可使用。
-
-### 從原始碼編譯
-
-```bash
-osacompile -o "Pages-MixedFont-Setter.app" "PagesMixedFontSetter.applescript"
-```
 
 ## 使用方法
 
@@ -67,7 +54,6 @@ osacompile -o "Pages-MixedFont-Setter.app" "PagesMixedFontSetter.applescript"
 
 ## 版本歷史
 
-- **v1.2.1** - 修復中文字型未套用問題，改用批次處理
 - **v1.1.0** - 新增 NSAlert 下拉選單介面
 - **v1.0.0** - 初始版本
 
