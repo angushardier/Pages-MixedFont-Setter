@@ -17,7 +17,7 @@
 ## Requirements
 
 - macOS 26 (Tahoe); theoretically supports 10.15+
-- Apple Pages 14.4 - 15.1.1; theoretically supports similar versions
+- Apple Pages 14.4+; theoretically supports similar versions
 - Traditional Chinese literacy
 
 ## 使用方法
